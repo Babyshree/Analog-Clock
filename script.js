@@ -1,22 +1,9 @@
-//var dialLines = document.getElementsByClassName('diallines');
-//var clockEl = document.getElementsByClassName('clock')[0];
-
-//for (var i = 1; i < 60; i++) {
- // clockEl.innerHTML += "<div class='diallines'></div>";
- // dialLines[i].style.transform = "rotate(" + 6 * i + "deg)";
-//}
-//var lines = document.getElementsByClassName('lines');
-//var clockEl = document.getElementsByClassName('clock')[0];
-//clockEl.innerHTML += "<div class='lines'></div>"
-
-
 const hourEl =document.querySelector(".hour");
 const minuteEl =document.querySelector(".minute");
 const secondsEl=document.querySelector(".seconds");
 
 function updateClock() {
 const currentDate = new Date();
-//setTimeout(updateClock, 1000);
 const hour=currentDate.getHours();
 const minute=currentDate.getMinutes(); 
 const seconds = currentDate.getSeconds();
