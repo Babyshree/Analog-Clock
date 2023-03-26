@@ -1,0 +1,175 @@
+body {
+  background-image: url('https://images.pexels.com/photos/48828/pexels-photo-48828.jpeg?auto=compress&cs=tinysrgb&w=400');
+  background-position: center center;
+  display:flex;
+  height:800px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  justify-content: center;
+}
+.clock {
+    
+    background-image:url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size:cover;
+    width: 300px;
+    height: 300px;
+    margin: 8% auto 0;
+    border-radius: 50%;
+    border: 10px solid #ecd69f;
+    position: relative;
+    box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background:#bdbdcb;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 2px 4px -1px black;
+  }
+  
+  .hour {
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 65px;
+    background: #f7ff85;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  
+  .minute {
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 100px;
+    background: #02bffe;
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 105px;
+  }
+  
+  .second {
+    position: absolute;
+    z-index: 7;
+    width: 2px;
+    height: 120px;
+    background: gold;
+    top: 26px;
+    lefT: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 125px;
+  }
+  
+  span {
+    display: inline-block;
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+    z-index: 4;
+    font-size: 25px;
+    color: #faca72;
+  }
+  
+  .twelve {
+    top: 10px;
+    left: 50%;
+    margin-left: -9px;
+    color:rgb(246, 246, 248);
+  }
+  .three{
+    top: 140px;
+    right: 10px;
+    color:rgb(246, 246, 248);;
+  }
+
+  .one {
+    top: 35px;
+    right: 75px;
+    margin-left:-8px;
+  }
+  .two{
+    top: 80px;
+    right: 30px;
+  }
+
+  .five {
+    bottom:30px;
+    right: 80px;
+    margin-left: -9px;
+  }
+  .four{
+    bottom: 70px;
+    right: 30px;
+  }
+
+  .six {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -5px;
+    color:rgb(246, 246, 248);
+  }
+
+  .seven{
+    bottom: 30px;
+    right: 70%;
+    margin-left: -9px;
+  }
+  .eight{
+    bottom: 70px;
+    left: 30px;
+  }
+
+  
+  .nine {
+    top: 140px;
+    left: 10px;
+    color:rgb(246, 246, 248);;
+
+  }
+
+  .eleven{
+    top: 35px;
+    left: 75px;
+    margin-right:-8px;
+  }
+  .ten{
+    top: 80px;
+    left: 30px;
+  }
+
+  .addition{
+    margin-top: 50%;
+    left:110px;
+    bottom:25%;
+    position: absolute;
+    font-size: large;
+    font-family: "Poiret One";
+    font-weight: 700;
+    color: cyan;
+  }
+  .date {
+text-align: center;
+  }
+  .day {
+    text-align: center;
+  }
+
+  
